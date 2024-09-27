@@ -1,0 +1,34 @@
+a{
+    color:rgb(0, 100, 34);
+    font-size: 24px ;
+}
+
+.text{
+    color: rgb(0, 162, 255);
+}
+
+.main-text{
+    color: hotpink;
+    
+}
+
+*{
+    color: rgb(0, 0, 0);
+}
+
+body{
+    color: rgb(0, 131, 11);
+}
+
+ul a {
+    color: blueviolet;
+}
+
+.button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+    background-color: rgba(132, 0, 255, 0.7);
+}
