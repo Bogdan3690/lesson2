@@ -17,7 +17,7 @@ a{
 }
 
 body{
-    color: rgb(0, 131, 11);
+    color: rgb(0, 0, 0);
 }
 
 ul a {
@@ -31,4 +31,43 @@ ul a {
     width: 150px;
     height: 100px;
     background-color: rgba(132, 0, 255, 0.4);
+}
+
+.box{
+    background-color: rgba(0, 0, 0, 0.282);
+    width: 700px;
+    height: 700px;
+    position: relative;
+}
+
+.cube{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation: 
+    cube 2000ms linear infinite;
+}
+
+@keyframes cube{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top: 0;
+        left: 85%;
+    }
+    50%{
+        top: 85%;
+        left: 85%;
+    }
+    75%{
+        top: 85%;
+        left: 0%;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
 }
